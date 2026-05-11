@@ -10,7 +10,7 @@ An interactive Tableau dashboard analysing the championship performance of Formu
 
 ## Dashboard Preview
 
-![Dashboard Preview](images/Screenshot 2026-05-11 at 15.30.48.png)
+!images/Screenshot 2026-05-11 at 15.30.48.png
 ---
 
 ## Key Insights
