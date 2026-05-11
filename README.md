@@ -1,7 +1,35 @@
-# f1-constructor-analysis
-an analysis of the top f1 constructors of the past 35 years
+Decades of Dominance: F1 Constructor Championship Performance, 1990–2024
 
-goal;
+An interactive Tableau dashboard analysing the championship performance of Formula 1's four most successful constructors — Ferrari, McLaren, Mercedes, and Red Bull — across 35 seasons of competition.
 
-I wanted to analyse f1 contructors over the years and see how they performed. I utilised python to clean the dataset that I gathered from kaggled then perfomed EDA using SQL to provide some insights. ater cleaning and exploring the data, I created a dashboard using tableau. 
-https://public.tableau.com/views/Decadesofdominancef1constructoranalysis/DecadesofDominanceF1ConstructorPerformanceAnalysis19902024?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+Key Insights
+
+Four distinct eras of dominance emerge clearly in the data. McLaren led the 1990s (100 normalised score in 1990–1993), Ferrari dominated 1994–2004, Mercedes ran an unbroken streak from 2014–2021, and Red Bull have led since 2022 — with their 2023 season (10,158 points) representing the highest raw total in the dataset.
+2024 marks the most competitive season in 35 years. Ferrari (92.6) and McLaren (91.7) both achieved normalised scores above 90 for the first time since 2003, while Red Bull retained the lead — suggesting a genuine four-way title fight is emerging for the first time since the early 2000s.
+Year-on-year volatility reveals how sharply performance can shift. Ferrari's 2019 season saw the largest single-season points gain in the dataset (+4,450 points, +346%), while McLaren's 2023 drop (-5,398 points, -68%) was the steepest decline — illustrating how quickly regulation changes and technical failures can reshape the competitive order.
+
+
+Dashboard Features
+
+Points Over Time — line chart tracking all four constructors across 35 seasons, colour-coded by team
+Year-on-Year Change — diverging bar chart showing season-on-season points movement, with a zero reference line
+Normalised Performance — relative benchmarking view allowing cross-era comparison despite changing scoring systems
+Interactive Filters — constructor selector and season range slider to explore specific teams and eras
+
+
+Tools Used
+
+Tableau Public — dashboard design and visualisation
+sql/ Python — data cleaning and feature engineering (YoY change, normalisation)
+
+
+How to Use
+
+Open the live dashboard on Tableau Public
+Use the constructor checkboxes to isolate specific teams
+Drag the season slider to focus on a particular era
+Hover over any data point for detailed tooltip information
+
+
+About
+This project is part of my data analytics portfolio. I'm a career changer transitioning from hospitality management, where I worked extensively with revenue forecasting and performance data. This project demonstrates my ability to source, clean, and visualise longitudinal data to surface meaningful trends.
