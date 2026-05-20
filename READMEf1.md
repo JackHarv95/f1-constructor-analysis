@@ -4,7 +4,7 @@
 
 An interactive Tableau dashboard analysing the championship performance of Formula 1's four most successful constructors — Ferrari, McLaren, Mercedes, and Red Bull — across 35 seasons of competition.
 
-🔗 **[View Live Dashboard on Tableau Public](#)** ← *replace with your link*
+🔗 **[View Live Dashboard on Tableau Public](https://public.tableau.com/views/Decadesofdominancef1constructoranalysis/DecadesofDominanceF1ConstructorPerformanceAnalysis19902024?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
@@ -16,11 +16,11 @@ An interactive Tableau dashboard analysing the championship performance of Formu
 
 ## Key Insights
 
-- **Four distinct eras of dominance emerge clearly in the data.** McLaren led the 1990s (100 normalised score in 1990–1993), Ferrari dominated 1994–2004, Mercedes ran an unbroken streak from 2014–2021, and Red Bull have led since 2022 — with their 2023 season (10,158 points) representing the highest raw total in the dataset.
+- Four distinct eras of dominance emerge clearly in the data.** McLaren led the 1990s (100 normalised score in 1990–1993), Ferrari dominated 1994–2004, Mercedes ran an unbroken streak from 2014–2021, and Red Bull have led since 2022 — with their 2023 season (10,158 points) representing the highest raw total in the dataset.
 
-- **2024 marks the most competitive season in 35 years.** Ferrari (92.6) and McLaren (91.7) both achieved normalised scores above 90 for the first time since 2003, while Red Bull retained the lead — suggesting a genuine four-way title fight is emerging for the first time since the early 2000s.
+- 2024 marks the most competitive season in 35 years.** Ferrari (92.6) and McLaren (91.7) both achieved normalised scores above 90 for the first time since 2003, while Red Bull retained the lead — suggesting a genuine four-way title fight is emerging for the first time since the early 2000s.
 
-- **Year-on-year volatility reveals how sharply performance can shift.** Ferrari's 2019 season saw the largest single-season points gain in the dataset (+4,450 points, +346%), while McLaren's 2023 drop (-5,398 points, -68%) was the steepest decline — illustrating how quickly regulation changes and technical failures can reshape the competitive order.
+- Year-on-year volatility reveals how sharply performance can shift.** Ferrari's 2019 season saw the largest single-season points gain in the dataset (+4,450 points, +346%), while McLaren's 2023 drop (-5,398 points, -68%) was the steepest decline — illustrating how quickly regulation changes and technical failures can reshape the competitive order.
 
 ---
 
@@ -37,8 +37,6 @@ An interactive Tableau dashboard analysing the championship performance of Formu
 | `yoy_change_pct` | Percentage points change vs. prior season |
 
 **Note on normalisation:** Raw points are not directly comparable across seasons due to rule changes (e.g. double points, sprint races). The `points_normalised` field benchmarks each constructor against the season leader to enable fair cross-era comparison.
-
-**Source:** [Ergast F1 API](http://ergast.com/mrd/) / [Formula 1 official results](https://www.formula1.com/en/results)
 
 ---
 
@@ -60,7 +58,7 @@ An interactive Tableau dashboard analysing the championship performance of Formu
 
 ## How to Use
 
-1. Open the [live dashboard](#) on Tableau Public
+1. Open the [live dashboard](https://public.tableau.com/views/Decadesofdominancef1constructoranalysis/DecadesofDominanceF1ConstructorPerformanceAnalysis19902024?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) on Tableau Public
 2. Use the constructor checkboxes to isolate specific teams
 3. Drag the season slider to focus on a particular era
 4. Hover over any data point for detailed tooltip information
