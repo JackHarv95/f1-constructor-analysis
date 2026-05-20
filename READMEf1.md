@@ -10,7 +10,8 @@ An interactive Tableau dashboard analysing the championship performance of Formu
 
 ## Dashboard Preview
 
-images/Screenshot 2026-05-11 at 15.30.48.png
+![imagealt](https://github.com/JackHarv95/f1-constructor-analysis/blob/main/images/Screenshot%202026-05-11%20at%2015.30.48.png?raw=true)
+
 ---
 
 ## Key Insights
